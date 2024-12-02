@@ -1,0 +1,31 @@
+---
+# yaml-language-server: $schema=https://www.updatecli.io/schema/latest/config.json
+name: "Helm autodiscovery"
+scms:
+  githubConfig:
+    kind: "github"
+    spec:
+      user: '{{ requiredEnv "GIT_USER" }}'
+      email: '{{ requiredEnv "GIT_EMAIL" }}'
+      owner: '{{ requiredEnv "GITHUB_OWNER" }}'
+      repository: '{{ requiredEnv "GITHUB_REPO" }}'
+      token: '{{ requiredEnv "GITHUB_TOKEN" }}'
+      username: '{{ requiredEnv "GIT_USER" }}'
+      branch: "main"
+actions:
+  updateCharts:
+    kind: github/pullrequest
+    scmid: githubConfig
+    spec:
+      mergemethod: "squash"
+      automerge: true
+      labels:
+        - "dependencies"
+        - "automerge"
+
+autodiscovery:
+  scmid: githubConfig
+  actionid: updateCharts
+  crawlers:
+    helm:
+      rootdir: issue-3204/helm-charts
