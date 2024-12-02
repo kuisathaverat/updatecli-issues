@@ -22,7 +22,7 @@ dependencies:
   version: 7.5.3
 - name: rabbitmq
   repository: https://charts.bitnami.com/bitnami
-  version: 15.0.0
+  version: 15.1.0
 - name: cassandra
   repository: https://charts.bitnami.com/bitnami
   version: 12.0.0
@@ -32,5 +32,5 @@ dependencies:
 - name: kibana
   repository: https://charts.bitnami.com/bitnami
   version: 11.0.0
-digest: sha256:bf5d65a38c8fffee3012f4a5d9b975ba9b3bbbee3e3f30cb7c57664407a0aa3f
-generated: "2024-12-02T10:25:45.141575188Z"
+digest: sha256:4ca0da999f477806c672e8c52ebc72fada70e16c374459ab809ea9622b8af33c
+generated: "2024-12-02T10:27:04.05937778Z"
