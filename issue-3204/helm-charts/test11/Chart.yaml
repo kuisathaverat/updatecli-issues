@@ -31,7 +31,7 @@ dependencies:
     version: 12.1.0
     repository: https://charts.bitnami.com/bitnami
   - name: redis
-    version: 20.0.0
+    version: 20.4.0
     repository: https://charts.bitnami.com/bitnami
   - name: mongodb
     version: 16.0.0
