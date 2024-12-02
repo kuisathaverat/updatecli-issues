@@ -19,7 +19,7 @@ dependencies:
   version: 20.1.1
 - name: memcached
   repository: https://charts.bitnami.com/bitnami
-  version: 7.5.0
+  version: 7.5.3
 - name: rabbitmq
   repository: https://charts.bitnami.com/bitnami
   version: 15.0.0
@@ -32,5 +32,5 @@ dependencies:
 - name: kibana
   repository: https://charts.bitnami.com/bitnami
   version: 11.0.0
-digest: sha256:ae3a89508fa35e0e1ba15937c16d2eab922835084fc0c3a99aad7b22e25f0248
-generated: "2024-12-02T12:19:52.536194931Z"
+digest: sha256:bf5d65a38c8fffee3012f4a5d9b975ba9b3bbbee3e3f30cb7c57664407a0aa3f
+generated: "2024-12-02T12:21:11.15515495Z"
