@@ -1,0 +1,27 @@
+---
+name: issue-3204
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: "Setup updatecli"
+        uses: "updatecli/updatecli-action@v2.71.0"
+      - name: Update
+        working-directory: ./issue-3204
+        run: updatecli apply --config test.yml
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIT_USER: updatecli
+          GIT_EMAIL: updatecli@example.com
+          GITHUB_OWNER: kuisathaverat
+          GITHUB_REPO: updatecli-issues
+

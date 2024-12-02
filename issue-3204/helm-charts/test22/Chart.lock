@@ -1,0 +1,36 @@
+dependencies:
+- name: nginx
+  repository: https://charts.bitnami.com/bitnami
+  version: 18.2.0
+- name: mysql
+  repository: https://charts.bitnami.com/bitnami
+  version: 12.0.0
+- name: redis
+  repository: https://charts.bitnami.com/bitnami
+  version: 20.0.0
+- name: mongodb
+  repository: https://charts.bitnami.com/bitnami
+  version: 16.0.0
+- name: postgresql
+  repository: https://charts.bitnami.com/bitnami
+  version: 16.0.0
+- name: mariadb
+  repository: https://charts.bitnami.com/bitnami
+  version: 20.1.0
+- name: memcached
+  repository: https://charts.bitnami.com/bitnami
+  version: 7.5.0
+- name: rabbitmq
+  repository: https://charts.bitnami.com/bitnami
+  version: 15.0.0
+- name: cassandra
+  repository: https://charts.bitnami.com/bitnami
+  version: 12.0.0
+- name: elasticsearch
+  repository: https://charts.bitnami.com/bitnami
+  version: 21.0.0
+- name: kibana
+  repository: https://charts.bitnami.com/bitnami
+  version: 11.0.0
+digest: sha256:0282db7a02d26bf5ffe049002b90c3531a349b67a36d463fc8c94157b3dcdc6d
+generated: "2024-12-02T09:56:34.939888+01:00"
