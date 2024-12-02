@@ -55,5 +55,5 @@ dependencies:
     version: 21.3.26
     repository: https://charts.bitnami.com/bitnami
   - name: kibana
-    version: 11.0.0
+    version: 11.3.2
     repository: https://charts.bitnami.com/bitnami
