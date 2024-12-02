@@ -13,7 +13,7 @@ dependencies:
   version: 16.3.1
 - name: postgresql
   repository: https://charts.bitnami.com/bitnami
-  version: 16.0.0
+  version: 16.2.3
 - name: mariadb
   repository: https://charts.bitnami.com/bitnami
   version: 20.1.0
@@ -32,5 +32,5 @@ dependencies:
 - name: kibana
   repository: https://charts.bitnami.com/bitnami
   version: 11.0.0
-digest: sha256:4e15bd5c0bb32c7fd0ea4aaaa4ada08ffe208a5a5b4210653585db5c90d2fd40
-generated: "2024-12-02T13:15:09.656446666Z"
+digest: sha256:7a534529cfb8db29e0ee89c2d213f6cb48191e993669d17582485e572acd9e84
+generated: "2024-12-02T13:16:28.108879669Z"
