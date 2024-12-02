@@ -1,7 +1,7 @@
 dependencies:
 - name: nginx
   repository: https://charts.bitnami.com/bitnami
-  version: 18.2.0
+  version: 18.2.6
 - name: mysql
   repository: https://charts.bitnami.com/bitnami
   version: 12.0.0
@@ -32,5 +32,5 @@ dependencies:
 - name: kibana
   repository: https://charts.bitnami.com/bitnami
   version: 11.0.0
-digest: sha256:0282db7a02d26bf5ffe049002b90c3531a349b67a36d463fc8c94157b3dcdc6d
-generated: "2024-12-02T09:56:34.939888+01:00"
+digest: sha256:8158b4f56b97a79ea4cace9cd43ccad5395662f50c24f58ae200731084abee31
+generated: "2024-12-02T11:15:40.472288503Z"
