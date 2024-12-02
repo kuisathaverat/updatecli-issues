@@ -52,7 +52,7 @@ dependencies:
     version: 12.0.5
     repository: https://charts.bitnami.com/bitnami
   - name: elasticsearch
-    version: 21.0.0
+    version: 21.3.26
     repository: https://charts.bitnami.com/bitnami
   - name: kibana
     version: 11.0.0
