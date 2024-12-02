@@ -25,12 +25,12 @@ dependencies:
   version: 15.1.0
 - name: cassandra
   repository: https://charts.bitnami.com/bitnami
-  version: 12.0.0
+  version: 12.0.5
 - name: elasticsearch
   repository: https://charts.bitnami.com/bitnami
   version: 21.0.0
 - name: kibana
   repository: https://charts.bitnami.com/bitnami
   version: 11.0.0
-digest: sha256:7e68cfbaf669e50badc8ccb2d7c98a43168eb17e5b392cb3b7067e8a641c4ffe
-generated: "2024-12-02T09:43:43.206353737Z"
+digest: sha256:14e0042c766fe9234bc92e37b877b4734a99eeb69d716835696802b8516172c7
+generated: "2024-12-02T09:45:02.062716534Z"
