@@ -31,6 +31,6 @@ dependencies:
   version: 21.3.26
 - name: kibana
   repository: https://charts.bitnami.com/bitnami
-  version: 11.0.0
-digest: sha256:6db72cefb69cd4e9a899ca784e2bdbb16925793ac2062b5702c5ebf32a3f75b2
-generated: "2024-12-02T10:00:48.218173167Z"
+  version: 11.3.2
+digest: sha256:ea6c66e7cf6026ab94dbe50e517919bb305612e026e5531d318698675f92b7a3
+generated: "2024-12-02T10:02:07.882966462Z"
