@@ -49,7 +49,7 @@ dependencies:
     version: 15.1.0
     repository: https://charts.bitnami.com/bitnami
   - name: cassandra
-    version: 12.0.0
+    version: 12.0.5
     repository: https://charts.bitnami.com/bitnami
   - name: elasticsearch
     version: 21.0.0
