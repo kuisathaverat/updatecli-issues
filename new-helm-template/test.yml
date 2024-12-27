@@ -27,7 +27,4 @@ autodiscovery:
   crawlers:
     helm:
       rootdir: new-helm-template/helm-charts
-      digest: true
-      ignorechartdependency: true
-      skippackaging: true
       versionincrement: patch
