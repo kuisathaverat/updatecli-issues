@@ -3,6 +3,6 @@
 ## @param image.tag The image tag to pull
 ## @param image.pullPolicy The image pull policy
 image:
-  repository: reakaleek/otelcol-githubactions@sha256
+  repository: reakaleek/otelcol-githubactions
   tag: e6580a59ededb99655bd4d021776e7bf215c65cca7916069ba069d92bb16837c
   pullPolicy: IfNotPresent
