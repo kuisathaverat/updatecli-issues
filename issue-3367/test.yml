@@ -1,0 +1,40 @@
+---
+# yaml-language-server: $schema=https://www.updatecli.io/schema/latest/config.json
+name: "Helm autodiscovery Docker containers"
+scms:
+  githubConfig:
+    kind: "github"
+    spec:
+      user: '{{ requiredEnv "GIT_USER" }}'
+      email: '{{ requiredEnv "GIT_EMAIL" }}'
+      owner: "kuisathaverat"
+      repository: "updatecli-issues"
+      token: '{{ requiredEnv "GITHUB_TOKEN" }}'
+      username: '{{ requiredEnv "GIT_USER" }}'
+      branch: "main"
+actions:
+  updateCharts:
+    kind: github/pullrequest
+    scmid: githubConfig
+    spec:
+      mergemethod: "squash"
+      automerge: true
+      labels:
+        - "dependencies"
+
+autodiscovery:
+  scmid: githubConfig
+  actionid: updateCharts
+  crawlers:
+    helm:
+      rootdir: issue-3367
+      digest: true
+      ignorechartdependency: true
+      skippackaging: true
+      versionincrement: patch
+      ignore:
+        - path: "hello-01"
+        # - containers:
+        #     "nginx": ">0.0.1"
+        # - dependencies:
+        #     "hello-03": ""
