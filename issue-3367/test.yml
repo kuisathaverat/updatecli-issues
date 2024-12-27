@@ -18,7 +18,6 @@ actions:
     scmid: githubConfig
     spec:
       mergemethod: "squash"
-      automerge: true
       labels:
         - "dependencies"
 
