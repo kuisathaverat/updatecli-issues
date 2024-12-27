@@ -1,0 +1,17 @@
+---
+apiVersion: networking.istio.io/v1
+kind: Gateway
+metadata:
+  name: {{ include "otelcol-github-actions.fullname" . }}-gateway
+  labels:
+    {{- include "otelcol-github-actions.labels" . | nindent 4 }}
+spec:
+  selector:
+    istio: gateway
+  servers:
+    - port:
+        number: 80
+        name: http
+        protocol: HTTP
+      hosts:
+        - "{{ .Values.host }}"

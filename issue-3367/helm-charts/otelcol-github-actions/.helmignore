@@ -1,0 +1,31 @@
+# Patterns to ignore when building packages.
+# This supports shell glob matching, relative path matching, and
+# negation (prefixed with !). Only one pattern per line.
+__pycache__
+./.venv
+./node_modules
+./readme-generator-for-helm
+./requirements.lock
+./tests
+.bzr/
+.bzrignore
+.DS_Store
+.env
+.env*
+.git/
+.gitignore
+.hg/
+.hgignore
+.idea/
+.project
+.svn/
+.vscode/
+*.bak
+*.bak
+*.lock
+*.orig
+*.swp
+*.tmp
+*.tmproj
+*~
+Makefile
