@@ -1,5 +1,5 @@
 ---
-name: issue-3204
+name: issue-3367
 on:
   workflow_dispatch:
 
