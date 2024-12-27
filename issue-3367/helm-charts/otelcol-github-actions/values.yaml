@@ -3,6 +3,6 @@
 ## @param image.tag The image tag to pull
 ## @param image.pullPolicy The image pull policy
 image:
-  repository: reakaleek/otelcol-githubactions
+  repository: nginx
   tag: latest
   pullPolicy: IfNotPresent
