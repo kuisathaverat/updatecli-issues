@@ -1,7 +1,4 @@
-## @section Image configuration
-## @param image.repository The image repository to pull from
-## @param image.tag The image tag to pull
-## @param image.pullPolicy The image pull policy
+---
 image:
   repository: nginx
   tag: latest
