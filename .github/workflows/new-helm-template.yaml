@@ -16,7 +16,7 @@ jobs:
       - name: "Setup updatecli"
         uses: "updatecli/updatecli-action@v2.74.0"
       - name: Update
-        run: updatecli apply --config ./new-helm-template/test.yml
+        run: updatecli apply --config ./new-helm-template/test.yml --debug
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GIT_USER: updatecli
