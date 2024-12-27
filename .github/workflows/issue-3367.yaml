@@ -16,8 +16,7 @@ jobs:
       - name: "Setup updatecli"
         uses: "updatecli/updatecli-action@v2.74.0"
       - name: Update
-        working-directory: ./issue-3367
-        run: updatecli apply --config test.yml
+        run: updatecli apply --config ./issue-3367/test.yml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GIT_USER: updatecli

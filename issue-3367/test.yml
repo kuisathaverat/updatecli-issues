@@ -27,7 +27,7 @@ autodiscovery:
   actionid: updateCharts
   crawlers:
     helm:
-      rootdir: issue-3367
+      rootdir: issue-3367/helm-charts
       digest: true
       ignorechartdependency: true
       skippackaging: true
