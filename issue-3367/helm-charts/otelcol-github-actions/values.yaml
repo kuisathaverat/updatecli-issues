@@ -4,5 +4,5 @@
 ## @param image.pullPolicy The image pull policy
 image:
   repository: reakaleek/otelcol-githubactions
-  tag: e6580a59ededb99655bd4d021776e7bf215c65cca7916069ba069d92bb16837c
+  tag: latest
   pullPolicy: IfNotPresent
